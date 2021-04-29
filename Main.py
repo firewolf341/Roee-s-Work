@@ -163,7 +163,7 @@ def fun_6(x, y):
 flag = True
 while flag:
     print("Choose a function to run: ")
-    print("1, 2, 3, 4, 5, 6")
+    print("1, 2, 3, 4, 5, 6 or 7 to stop")
     try:
         var = int(input())
         if var == 1:
@@ -178,6 +178,8 @@ while flag:
             print(fun_5([25, 36, 49, 81], square))
         elif var == 6:
             print(str(fun_6(50, 20)))
+        elif var == 7:
+            flag = False
         else:
             print("Please enter a number from the given list!\n")
     except:
