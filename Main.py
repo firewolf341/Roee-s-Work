@@ -117,7 +117,7 @@ def fun_4():
         return False
 
 """This function gets a list and a function, and returns the list after the function that was given ran over 
-all of the list's vars"""
+all of the list's vars """
 def fun_5(list, func):
     for i in range(len(list)):
         list[i] = func(list[i])
